@@ -1,12 +1,12 @@
-.box{
-height: 30%;
-width: 30%;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-margin-right: 10px;
-margin-left: 50px;
-width: 25%;
+.box{height: 474px;
+    width: 330px;
+    left: 900px;
+    top: 747px;
+    border-radius: 0px;
+    padding: 15px;
+    
+
+
 
 
 }
@@ -43,7 +43,25 @@ width: 25%;
 }
 
 .intro img{
+    height: 450px;
+    width: 556px;
+    top: 153px;
+    left: 1290px;
+    blend: pass through
+   
+}
 
-    height:80%;
-    width: 50%;
+.h1 content{
+    width: 485px;
+    height: 230px;
+    top: 207px;
+    left: 156px;
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 83%;
+   vertical-align: top;
+   align: left;
+ 
+
+
 }
