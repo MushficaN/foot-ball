@@ -1,9 +1,13 @@
-.box{height: 474px;
+.box{
+    height: 474px;
     width: 330px;
-    left: 900px;
+    
     top: 747px;
     border-radius: 0px;
-    padding: 15px;
+    padding: 30px;
+    
+
+
     
 
 
@@ -11,14 +15,15 @@
 
 }
 
-.players{
-
-    display: grid;
+.players{ display: grid;
     grid-template-columns: repeat(3, 1fr);
    width: 860px;
    padding: 30px;
    border-radius: 8px;
    margin-top: 20px;
+    background: #FFFFFF;
+    
+   
 }
 
 .box img{
@@ -47,21 +52,106 @@
     width: 556px;
     top: 153px;
     left: 1290px;
-    blend: pass through
-   
+    
+    
+    
 }
 
-.h1 content{
+.content{
     width: 485px;
     height: 230px;
     top: 207px;
-    left: 156px;
-   font-size: 64px;
-   font-weight: 700;
-   line-height: 83%;
+    margin-left: 156px;
+   font-size: 60px;
+   font-weight: 600;
+   line-height: 50px;
    vertical-align: top;
-   align: left;
+   text-align: left;
+  
+   font-family: poppins;
+   font-style: normal;
+   color: #FFFFFF;
+   ;
+
  
 
 
 }
+
+.button{
+   
+    padding:10px;
+    align-items: center;
+    padding: 10px 24px; 
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    margin-left: 156px;
+    margin-top: 44px;
+    background-color: #E02C6D;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+
+.discription img{
+    position: absolute;
+    width: 567px;
+    height: 427px;
+    margin-right: 156px;
+    margin-bottom: 434px;
+    margin-left: 717px;
+    top: 2889px;
+
+
+
+}
+
+
+.discription{
+    width: 466px;
+    height: 309px;
+    top: 2948px;
+    margin-left: 182px;
+    margin-bottom: 493px;
+    margin-right: 792px;
+    margin-top: 224px;
+    flex-direction: column;
+    align-items: flex-start;
+   
+
+
+}
+
+
+
+.fas{
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color:white;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
