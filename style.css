@@ -89,7 +89,7 @@ span{
     font-size: 50px;
  }
 .button{
-   
+   text-decoration: none;
     padding:10px;
     align-items: center;
     padding: 10px 24px; 
@@ -118,8 +118,21 @@ span{
 
 
 }
+.iconic 2{
+    text-align:center;
+    font-size: 254px;
+}
+.iconic{
+   text-align: center;
+}
+.iconic img{
+    margin-bottom: 60px;
+}
 
+.image{
+    text-align: center;
 
+}
 .discription{
     width: 466px;
     height: 309px;
@@ -134,7 +147,11 @@ span{
 
 
 }
-
+.image img{
+    height: 200px;
+    width: 600px;
+    margin: bottom 50px;
+}
 
 
 
